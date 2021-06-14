@@ -5,3 +5,6 @@ gasを用いて、remoから照度、気温、湿度、人感センサを取得�
 
 以下を参考にした
 https://github.com/jr-ken/IoT-programing
+
+nature remo APIの使用はいかにある。
+https://developer.nature.global
