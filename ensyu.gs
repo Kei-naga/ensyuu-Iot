@@ -1,8 +1,8 @@
 //////////////////////////////////
 // アクセストークン、スプレッドシートID、remo上のapplianceIDを事前に取得
-var access_token = '***********'
-var spreadsheetId = '***********'
-var lightId = '***********'
+var access_token = PropertiesService.getScriptProperties().getProperty('TOKEN')
+var spreadsheetId = PropertiesService.getScriptProperties().getProperty('SpreadsheetId')
+var lightId = PropertiesService.getScriptProperties().getProperty('LightId')
 /////////////////////////////////
 
 function remo() {
